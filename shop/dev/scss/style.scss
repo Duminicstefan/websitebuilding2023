@@ -1,3 +1,15 @@
+body {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
 // START form validation
 $bg-prime:#152733;
 #sec-contact{
@@ -163,3 +175,22 @@ $bg-prime:#152733;
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+  body {
+      padding-top: 80px;
+    }
+
+    .show-cart li {
+      display: flex;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+
+    .card-img-top {
+      width: 200px;
+      height: 200px;
+      align-self: center;
+    } 
+    #gradient1{background-image: linear-gradient(to bottom right, blue, cyan,grey,white);
+    }
