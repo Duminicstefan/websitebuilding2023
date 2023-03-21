@@ -31,35 +31,8 @@
     <div class="p-5 bg-warning" id="gradient1">
         <h1>Demo Header</h1>
     </div>
-    <nav id="navbar_top" class="navbar  navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand">
-                <img src="./assets/img/logo.svg" height="28" alt="Logo">
-            </a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav">
-                    <a href="#sec-home" class="nav-item nav-link active">Acasa</a>
-                    <a href="#sec-about" class="nav-item nav-link">Despre</a>
-                    <a href="#sec-products" class="nav-item nav-link">Produse</a>
-                    <a href="#sec-contact" class="nav-item nav-link">Contact</a>
-                    
+    <section w3-include-html="navbar.html"> </section>
 
-                </div>
-                <button onclick="myFunction()">💡</button>
-                <button onclick="myFunction()">👁️‍🗨️ </button>
-                <div class="navbar-nav ms-auto">
-                    <a href="#" class="nav-item nav-link">Login</a>
-                </div>
-            </div>
-        </div>
-        <!-- <button class="g-recaptcha" 
-        data-sitekey="reCAPTCHA_site_key" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button> -->
-    </nav>
     <!-- Stop Section Navbar -->
     <!-- Start Section Carousel -->
     <div id="sec-home" class="container-lg my-3">
@@ -76,7 +49,7 @@
                 <div class="carousel-item active">
                     <img src="./assets/img/slide1.png" class="d-block w-100" alt="Slide 1">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>👶</h5>
+                        <h5> 🏒 </h5>
                         <p>Some demonstrative placeholder content for the first slide.</p>
                     </div>
                 </div>
@@ -398,6 +371,10 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">↕ </button>
     <!-- butoon scrollup stop -->
     <!-- Stop Formular Validare -->
+    <!-- start footer -->
+    <section w3-include-html="footer.html"> </section>
+    <!-- stop footer -->
+
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
